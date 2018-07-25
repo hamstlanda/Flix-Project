@@ -2,14 +2,14 @@
 
 **Name of your app** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **X** hours spent in total
+Time spent: **2+** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] User sees app icon in home screen and styled launch screen (+1pt)
-- [ ] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
+- [x] User sees app icon in home screen and styled launch screen (+1pt)
+- [x] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
 - [ ] User can "Pull to refresh" the movie list (+2pt)
 - [ ] User sees a loading state while waiting for the movies to load (+2pt)
 
