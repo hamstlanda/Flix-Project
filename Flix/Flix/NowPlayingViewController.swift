@@ -11,7 +11,8 @@ import AlamofireImage
 
 class NowPlayingViewController: UIViewController, UITableViewDataSource {
 
-    @IBOutlet weak var activityIndicatior: UIActivityIndicatorView!
+
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     @IBOutlet weak var tableView: UITableView!
     var movies : [[String: Any]] = []
@@ -30,7 +31,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
         // Do any additional setup after loading the view.
     }
     @objc func didPullToRefresh(_ refreshControl: UIRefreshControl){
-        activityIndicatior.startAnimating()
+        activityIndicator.startAnimating()
         fetchMovies()
         
     }
@@ -51,7 +52,7 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
                 self.movies = movies
                 self.tableView.reloadData()
                 self.refreshControl.endRefreshing()
-                self.activityIndicatior.stopAnimating()
+                self.activityIndicator.stopAnimating()
             }
         }
             task.resume()
