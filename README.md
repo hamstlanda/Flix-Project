@@ -28,8 +28,8 @@ The following **additional** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. adding in the additional functionality
+2. why is there two loading icons? how to make the implementation of user stories 3 and 4 look organic 
 
 ## Video Walkthrough
 
@@ -40,8 +40,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-Describe any challenges encountered while building the app.
+It took me some time to get the activity indicator to show up properly. The issue was that I was forgetting to add it to constraints. another issue I faced was the table rows not displaying in full height. I fixed that by hard coding row height.
 
 ## License
 
